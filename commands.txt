@@ -1,0 +1,22 @@
+# Start the fuzzer
+./start_fuzzer.sh
+
+# Check status
+./check_status.sh
+
+# Manually rotate logs if needed
+./rotate_logs.sh
+
+# Follow logs in real-time
+tail -f ./logs/fuzzer.log
+
+# Stop the fuzzer
+kill $(cat fuzzer.pid)
+
+# Edit crontab
+crontab -e
+
+# Add this line to run log rotation daily at midnight
+0 0 * * * /path/to/your/rotate_logs.sh
+
+chmod +x start_fuzzer.sh rotate_logs.sh check_status.sh
