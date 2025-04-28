@@ -12,7 +12,7 @@
 </h2>
 
 
-Angel is a fast Fuzzer Designed to work with ITYFUZZ, RETH and any consenus client like lighhouse. Scans new transactions for smart contracts and sends to ITYFUZZ. Sends Report to telegram
+Angel is a fast Fuzzer Designed to work with ITYFUZZ, RETH and any consenus client like lighthouse. Scans new transactions for smart contracts and sends to ITYFUZZ. Sends Report to telegram
 
 
 <details>
