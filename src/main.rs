@@ -54,7 +54,7 @@ impl Write for TeeWriter {
 }
 
 // Constants
-const TELEGRAM_CHAT_ID: i64 = -4224073938;
+const TELEGRAM_CHAT_ID: i64 = -61;
 const PROJECT_DIR: &str = "projects";
 const ITYFUZZ_PATH: &str = "ityfuzz";
 const ITYFUZZ_INSTALL_SCRIPT: &str = r#"curl -L https://ity.fuzz.land/ | bash && ityfuzzup"#;
@@ -68,7 +68,7 @@ const SSH_HEALTH_CHECK_INTERVAL: Duration = Duration::from_secs(60);
 const PENDING_CHECK_INTERVAL: Duration = Duration::from_secs(15);
 const DEPLOYED_CHECK_INTERVAL: Duration = Duration::from_secs(24 * 3600);
 const DATABASE_CLEANUP_INTERVAL: Duration = Duration::from_secs(7 * 24 * 3600);
-const ETHERSCAN_API_KEY: &str = "QIAWYW9R1JISZZH12QJVKU4MYP4Q7FPRX";
+const ETHERSCAN_API_KEY: &str = "Ywyw";
 const BATCH_PROCESS_INTERVAL: Duration = Duration::from_secs(5);
 const MAX_BATCH_SIZE: usize = 10;
 const API_BACKOFF_DURATION: Duration = Duration::from_millis(200);
